@@ -11,7 +11,7 @@
 }
 
 .home {
-  background-image: url(/images/about-img.png);
+  background-image: url(images/about-img.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -23,7 +23,7 @@
 }
 
 .home-intro {
-  background-image: url(/images/font.jpg);
+  background-image: url(images/font.jpg);
   background-repeat: repeat;
   background-size: contain;
   background-position: center;
@@ -64,7 +64,7 @@
 }
 
 .program {
-  background-image: url(/images/main-program-bg.png);
+  background-image: url(images/main-program-bg.png);
   background-color: #272a31;
   padding: 10px;
   display: flex;
