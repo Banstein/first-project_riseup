@@ -1,3 +1,3 @@
 # capstone the first
  
-https://github.com/Banstein/capstone-the-first/pull/1
+https://banstein.github.io/capstone-the-first/
