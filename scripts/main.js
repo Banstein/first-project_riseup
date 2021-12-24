@@ -15,7 +15,7 @@ menuMobileToggle.addEventListener('click', () => {
 
 const closeMenu = document.querySelector('#mobileMenuClose');
 closeMenu.addEventListener('click', () => {
-    closeMenuPre();
+  closeMenuPre();
   });
 
   const mobileMenuLinks = document.querySelectorAll('.mobile-menu li a');
