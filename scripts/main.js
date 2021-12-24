@@ -17,3 +17,10 @@ const closeMenu = document.querySelector('#mobileMenuClose');
 closeMenu.addEventListener('click', () => {
     closeMenuPre();
   });
+
+  const mobileMenuLinks = document.querySelectorAll('.mobile-menu li a');
+for (let i = 0; i < mobileMenuLinks.length; i += 1) {
+  mobileMenuLinks[i].addEventListener('click', () => {
+    closeMenuPre();
+  });
+}
