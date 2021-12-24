@@ -7,21 +7,45 @@
   <link rel="stylesheet" href="style.css">
   <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Capstone Home</title>
 </head>
 <body>
-  <article class="home">
-    <div class="mobileMenuToggle-container">
+  <header>
+    <nav class="mobileMenuToggle-container">
       <i class="fa fa-bars" id="mobileMenuToggle"></i>
-    </div>
+    </nav>
+    <nav class="desktop-nav">
+      <div class="desktop-nav-first">
+        <ul class="desktop-nav-list">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+      <div class="desktop-nav-second">
+        <img src="images/riseup-short.png" alt="">
+        <ul class="desktop-nav-list2">
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">R.UP Campaign</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <article class="home">
     <div class="home-container">
       <p class="home-welcome">"Hello! Sharing world"</p>
       <h1 class="home-intro">Egypt RISEUP<br>GLOBAL SUMMIT<br>2022</h1>
       <p class="home-desc">A joyful celebration believing in the value of openness and sharing, creating change with pepole form over 80 countries is taking place in october, in Egypt.</p>
-      <p class="home-time">2015.10.15(THU) ~ 16(FRI)</p>
-      <p class="home-lctn">@National museum of korea, Art Center Nabi and more</p>
+      <p class="home-time">2022.1.15(THU) ~ 16(FRI)</p>
+      <p class="home-lctn">@American University of Cairo, Conference Center </p>
     </div>
   </article>
   <article class="program">
@@ -29,42 +53,47 @@
     <div class="break"></div>
     <ul class="program-list">
       <li>
-        <i class="fa fa-bars"></i>
-        <h4>program</h4>
+        <i class="fas fa-comments"></i>
+        <h4>Talks</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam nam fugit tenetur repellat ducimus?
         </p>
       </li>
       <li>
-        <i class="fa fa-gitlab"></i>
-        <h4>program</h4>
+        <i class="fas fa-users"></i>
+        <h4>Workshops</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam nam fugit tenetur repellat ducimus?
         </p>
       </li>
       <li>
-        <i class="fa fa-bars"></i>
-        <h4>program</h4>
+        <i class="fab fa-gitlab"></i>
+        <h4>Innovate</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam nam fugit tenetur repellat ducimus?
         </p>
       </li>
       <li>
-        <i class="fa fa-bars"></i>
-        <h4>program</h4>
+        <i class="fas fa-ankh"></i>
+        <h4>Tour</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam nam fugit tenetur repellat ducimus?
         </p>
       </li>
       <li>
-        <i class="fa fa-bars"></i>
-        <h4>program</h4>
+        <i class="fas fa-award"></i>
+        <h4>Certificate</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam nam fugit tenetur repellat ducimus?
         </p>
       </li>
     </ul>
     <button class="button-join">Join Riseup Summit 2022</button>
+  </article>
+  <article class="featured-speakers">
+    <h3>Featured Speakers</h3>
+    <div class="break"></div>
+    <div class="speakers"></div>
   </article>
 <!-- pop up -->
   <div id="menu-overlay">
@@ -79,6 +108,22 @@
       </li>
     </ul>
   </div>
+  <footer class="hide-mobile">
+    <h3>Partners</h3>
+    <div class="break"></div>
+    <div class="partners">
+      <img src="images/partners/google.png" alt="Missed Image">
+      <img src="images/partners/facebook.png" alt="Missed Image">
+      <img src="images/partners/amazon.png" alt="Missed Image">
+      <img src="images/partners/airbnb.png" alt="Missed Image">
+      <img src="images/partners/mozilla.png" alt="Missed Image">
+    </div>
+  </footer>
+  <div class="copy-write hide-mobile">
+    <img src="images/riseup.png" alt="Missed Image" class="copy-img">
+    <p class="copy-text">2021 Egypt Riseup Summit Some Rights reserved.</p>
+  </div>
   <script src="/scripts/main.js"></script>
+  <script src="/scripts/speakers.js"></script>
 </body>
 </html>
