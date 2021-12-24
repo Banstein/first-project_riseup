@@ -612,6 +612,7 @@ footer h3 {
     flex-flow: row wrap;
     justify-content: center;
     margin: auto;
+    max-width: 1000px;
   }
 
   .speakers-card {
