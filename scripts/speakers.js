@@ -9,14 +9,14 @@ const speakers = [
   {
     name: 'Jaime Raynor',
     title: 'Vice President of Activison',
-    image: 'images/partners/mozilla.png',
+    image: 'images/member2.png',
     description:
       'Jaime Raynor is part of Activison, official site for faculty, postdocs, students and staff information (Expertise, Bio, Research, Publications, and more). The site facilitates research and collaboration in academic endeavors.',
   },
   {
     name: 'Sarrah Kerrigan',
     title: 'CEO of Blizard',
-    image: '/images/member3.png',
+    image: 'images/member3.png',
     description:
       'Sarrah Kerrigan is a CEO of Blizard solutions at Activison where she focuses on building AI based tool that enable testers to focus on the fun parts of QA.',
   },
@@ -46,7 +46,7 @@ const speakers = [
 const speakersWrap  = document.querySelector('.speakers');
 speakers.forEach((speaker) => {
   speakersWrap.innerHTML += `
-  <img src="${speakers.image}" alt="${speaker.name}" class="speakers-image">
+  <img src="${speaker.image}" alt="${speaker.name}" class="speakers-image">
   <div class="speakers-card">
     <h4 class="speakers-name">${speaker.name}</h4>
     <p class="speakers-desc">${speaker.title}</p>
