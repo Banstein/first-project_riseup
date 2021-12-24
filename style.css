@@ -589,7 +589,6 @@ footer h3 {
     display: flex;
     flex-flow: nowrap column;
     align-items: center;
-    justify-content: center;
     margin: 0 2px;
     max-width: calc(75% / 5);
     height: 230px;
