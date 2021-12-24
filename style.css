@@ -103,6 +103,7 @@ body {
   font-family: var(--font-sec);
   font-size: 28px;
   color: rgba(236, 82, 66, 0.4);
+  background-clip: border-box;
   -webkit-background-clip: text;
   margin: 0 20px;
 }
