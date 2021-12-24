@@ -43,7 +43,7 @@ const speakers = [
   },
 ];
 
-const speakersWrap  = document.querySelector('.speakers');
+const speakersWrap = document.querySelector('.speakers');
 speakers.forEach((speaker) => {
   speakersWrap.innerHTML += `
   <div class="speakers-card">
@@ -56,5 +56,3 @@ speakers.forEach((speaker) => {
   </div>
   `;
 });
-
-var imga = {images}
