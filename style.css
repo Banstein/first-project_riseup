@@ -58,12 +58,12 @@
   display: flex;
   list-style: none;
   margin-right: 100px;
-
 }
 
 .desktop-nav-list2 li {
   margin: auto 20px;
   text-align: center;
+  transition: transform 0.4s;
 }
 
 .desktop-nav-list2 li a {
@@ -78,6 +78,10 @@
   align-self: center;
 }
 
+.desktop-nav-list2 li:hover {
+  transform: scale(120%);
+}
+
 /* home */
 
 .home {
@@ -88,6 +92,7 @@ body {
   background-image: url(images/about-img.png);
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .home-welcome {
@@ -168,6 +173,11 @@ body {
   max-width: 340px;
 }
 
+.program-list li:hover {
+  border: 2px solid var(--color-3);
+  transform: scale(105%);
+}
+
 .program h3 {
   margin: 20px 0 20px 0;
   color: white;
@@ -225,13 +235,49 @@ body {
   color: var(--color-1);
 }
 
-
-.speakers img {
-  width: 50px;
+.speakers {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
+.speakers-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
 
+.left-block {
+  width: 35%;
+}
 
+.right-block {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  font-size: 10px;
+  max-width: 150px;
+  padding-bottom: 3px;
+}
+
+.right-block h4 {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.right-block p:first-of-type {
+  color: var(--color-2);
+  font-weight: bold;
+}
+
+.right-block p:last-of-type {
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--color-4);
+  line-height: 1.4;
+}
 
 /* about */
 /* about-start */
@@ -323,6 +369,7 @@ body {
 
 .about-img {
   max-width: 320px;
+  background-color: white;
   padding: 20px;
   border: #d3d3d3 solid 1px;
 }
@@ -427,6 +474,8 @@ footer h3 {
 .mobileMenuToggle-container {
   transform: scale(100%);
   height: 100%;
+  position: fixed;
+  z-index: 5;
 }
 
 #mobileMenuToggle {
@@ -481,6 +530,11 @@ footer h3 {
 }
 
 @media only screen and (max-width: 768px) {
+  .about-start,
+  .home {
+    padding-top: 60px;
+  }
+
   .mobileMenuToggle-container {
   margin: 20px;
   }
@@ -544,18 +598,29 @@ footer h3 {
     justify-content: center;
     margin: 0 2px;
     max-width: calc(75% / 5);
-    height: 220px;
+    height: 230px;
     padding: 10px 5px;
   }
 
   .program-list li * {
     padding: 5px;
     text-align: center;
+    margin: 0;
   }
 
   .bg-container {
     display: flex;
     flex-flow: row;
     justify-content: center;
+  }
+
+  .speakers {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .speakers-card {
+    transform: scale(115%);
+    padding: 15px;
   }
 }
