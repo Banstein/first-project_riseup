@@ -2,8 +2,6 @@
 
 A Conference demo page of Egypt RiseUp Summit 2022, Featuring the program of this event with informations about partners and speakers who will attend.
 
-## Project's Screenshots
-
 ## Presntaion Video
 
 ## Live Link
