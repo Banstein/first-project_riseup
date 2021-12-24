@@ -30,10 +30,10 @@
         <img src="images/riseup-short.png" alt="">
         <ul class="desktop-nav-list2">
           <li><a href="about.html">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#partners">Partners</a></li>
+          <li><a href="https://www.google.com/search?q=egypt+rise+up+summit&oq=egypt+rise+up+summit&aqs=chrome..69i57j69i59l3j0i22i30j69i64j69i60j69i61.16534j0j7&sourceid=chrome&ie=UTF-8">News</a></li>
           <li><a href="#">R.UP Campaign</a></li>
         </ul>
       </div>
@@ -48,7 +48,7 @@
       <p class="home-lctn">@American University of Cairo, Conference Center </p>
     </div>
   </article>
-  <article class="program">
+  <article class="program" id="program">
     <h3>Main Program</h3>
     <div class="break"></div>
     <ul class="program-list">
@@ -90,22 +90,19 @@
     </ul>
     <button class="button-join">Join Riseup Summit 2022</button>
   </article>
-  <article class="featured-speakers">
+  <article class="featured-speakers" id="speakers">
     <h3>Featured Speakers</h3>
     <div class="break"></div>
-    <div class="speakers-container">
-      <div class="speakers"></div>
-    </div>
-    </div>
+    <div class="speakers"></div>
   </article>
 <!-- pop up -->
   <div id="menu-overlay">
     <ul class="mobile-menu">
       <li><a href="/about.html">About</a></li>
-      <li><a href="">Program</a></li>
-      <li><a href="">Join</a></li>
-      <li><a href="">Sponsor</a></li>
-      <li><a href="">News</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#speakers" onclick="closeMenu()">Speakers</a></li>
+          <li><a href="about.html#partners">Partners</a></li>
+          <li><a href="https://www.google.com/search?q=egypt+rise+up+summit&oq=egypt+rise+up+summit&aqs=chrome..69i57j69i59l3j0i22i30j69i64j69i60j69i61.16534j0j7&sourceid=chrome&ie=UTF-8">News</a></li>
       <li>
         <a href="#" id="mobileMenuClose" onclick="closeMenu()"><i class="fa fa-times" aria-hidden="true"></i></a>
       </li>
@@ -114,7 +111,7 @@
   <footer class="hide-mobile">
     <h3>Partners</h3>
     <div class="break"></div>
-    <div class="partners">
+    <div class="partners" id="partners">
       <img src="images/partners/google.png" alt="Missed Image">
       <img src="images/partners/facebook.png" alt="Missed Image">
       <img src="images/partners/amazon.png" alt="Missed Image">
