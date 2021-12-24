@@ -8,7 +8,7 @@ A Conference demo page of Egypt RiseUp Summit 2022, Featuring the program of thi
 
 ## Live Link
 
-[Portfolio](https://banstein.github.io/capstone-the-first/)
+[Capstone the First](https://banstein.github.io/capstone-the-first/)
 
 ## Built With!
 
