@@ -597,6 +597,7 @@ footer h3 {
 
   .program-list li * {
     padding: 5px;
+    padding-bottom: 10px;
     text-align: center;
     margin: 0;
   }
