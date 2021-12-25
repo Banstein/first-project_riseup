@@ -5,7 +5,7 @@ A Conference demo page of Egypt RiseUp Summit 2022, Featuring the program of thi
 
 ## Presntaion Video
 
-[Video Link](https://www.loom.com/share/aa75fdcdfcae46b7b9f91b3495fdabf1)
+[Video Link](https://www.loom.com/share/b49f6596cded4553ae3f1d40b2d015f8)
 
 ## Live Link
 
