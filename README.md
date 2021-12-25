@@ -4,6 +4,8 @@ A Conference demo page of Egypt RiseUp Summit 2022, Featuring the program of thi
 
 ## Presntaion Video
 
+[Video Link](https://www.loom.com/share/aa75fdcdfcae46b7b9f91b3495fdabf1)
+
 ## Live Link
 
 [Capstone the First](https://banstein.github.io/capstone-the-first/)
