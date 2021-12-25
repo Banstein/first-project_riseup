@@ -565,6 +565,11 @@ footer h3 {
     height: 0;
   }
 
+  .show {
+    transform: scale(1);
+    height: auto;
+  }
+
   .black {
     background-color: #414246;
   }
