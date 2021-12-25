@@ -591,7 +591,8 @@ footer h3 {
     align-items: center;
     margin: 0 2px;
     max-width: calc(75% / 5);
-    height: 230px;
+    min-height: 200px;
+    max-height: 230px;
     padding: 10px 5px;
   }
 
