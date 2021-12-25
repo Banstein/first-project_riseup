@@ -96,7 +96,7 @@ body {
 }
 
 .home-welcome {
-  font-size: 30px;
+  font-size: 25px;
   color: tomato;
   padding: 0 20px;
 }
@@ -107,7 +107,7 @@ body {
   background-size: contain;
   background-position: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 900;
   color: rgba(236, 82, 66, 0.4);
   background-clip: border-box;
@@ -298,12 +298,12 @@ body {
 }
 
 .about-start-welcome {
-  font-size: 30px;
+  font-size: 25px;
   color: #ff6347;
 }
 
 .about-start-intro {
-  font-size: 40px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   color: #f51200;
