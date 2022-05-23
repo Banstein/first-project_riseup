@@ -9,7 +9,7 @@ A Conference demo page of Egypt RiseUp Summit 2022, Featuring the program of thi
 
 ## Live Link
 
-[Capstone the First](https://banstein.github.io/capstone-the-first/)
+[Capstone the First](https://banstein.github.io/first-project_riseup/)
 
 ## Built With!
 
