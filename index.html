@@ -12,117 +12,119 @@
   <title>Capstone Home</title>
 </head>
 <body>
-  <header>
-    <nav class="mobileMenuToggle-container">
-      <i class="fa fa-bars" id="mobileMenuToggle"></i>
-    </nav>
-    <nav class="desktop-nav">
-      <div class="desktop-nav-first">
-        <ul class="desktop-nav-list">
-          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#">English</a></li>
-          <li><a href="#">My Page</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
+  <main>
+    <header>
+      <nav class="mobileMenuToggle-container">
+        <i class="fa fa-bars" id="mobileMenuToggle"></i>
+      </nav>
+      <nav class="desktop-nav">
+        <div class="desktop-nav-first">
+          <ul class="desktop-nav-list">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+        <div class="desktop-nav-second">
+          <img src="images/riseup-short.png" alt="">
+          <ul class="desktop-nav-list2">
+            <li><a href="about.html">About</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="https://www.google.com/search?q=egypt+rise+up+summit&oq=egypt+rise+up+summit&aqs=chrome..69i57j69i59l3j0i22i30j69i64j69i60j69i61.16534j0j7&sourceid=chrome&ie=UTF-8">News</a></li>
+            <li><a href="#">R.UP Campaign</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <article class="home">
+      <div class="home-container">
+        <p class="home-welcome">"Hello! Sharing world"</p>
+        <h1 class="home-intro">Egypt RISEUP<br>GLOBAL SUMMIT<br>2022</h1>
+        <p class="home-desc">A joyful celebration believing in the value of openness and sharing, creating change with pepole form over 80 countries is taking place in october, in Egypt.</p>
+        <p class="home-time">2022.1.15(THU) ~ 16(FRI)</p>
+        <p class="home-lctn">@American University of Cairo, Conference Center </p>
       </div>
-      <div class="desktop-nav-second">
-        <img src="images/riseup-short.png" alt="">
-        <ul class="desktop-nav-list2">
-          <li><a href="about.html">About</a></li>
-          <li><a href="#program">Program</a></li>
-          <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#partners">Partners</a></li>
-          <li><a href="https://www.google.com/search?q=egypt+rise+up+summit&oq=egypt+rise+up+summit&aqs=chrome..69i57j69i59l3j0i22i30j69i64j69i60j69i61.16534j0j7&sourceid=chrome&ie=UTF-8">News</a></li>
-          <li><a href="#">R.UP Campaign</a></li>
-        </ul>
+    </article>
+    <article class="program" id="program">
+      <h3>Main Program</h3>
+      <div class="break"></div>
+      <ul class="program-list">
+        <li>
+          <i class="fas fa-comments"></i>
+          <h4>Talks</h4>
+          <p>
+            Make conversations and make new friends, get a deep look of the job market for 2 days
+          </p>
+        </li>
+        <li>
+          <i class="fas fa-users"></i>
+          <h4>Workshops</h4>
+          <p>
+            Attend 50+ workshops, bootcamps, and keynotes covering all new dev technologies
+          </p>
+        </li>
+        <li>
+          <i class="fab fa-gitlab"></i>
+          <h4>Innovate</h4>
+          <p>
+            Get inspired by leaders and share with them your ideas, Sharpen your 
+          </p>
+        </li>
+        <li>
+          <i class="fas fa-ankh"></i>
+          <h4>Tour</h4>
+          <p>
+            Take a tour day at the Pyramids of Giza, Grand Egyptian Museum, Saladin Citadel
+          </p>
+        </li>
+        <li>
+          <i class="fas fa-award"></i>
+          <h4>Certificate</h4>
+          <p>
+            Seize your chance and prove your attendace of this event, a big deal content for your CV
+          </p>
+        </li>
+      </ul>
+      <button class="button-join">Join Riseup Summit 2022</button>
+    </article>
+    <article class="featured-speakers" id="speakers">
+      <h3>Featured Speakers</h3>
+      <div class="break"></div>
+      <div class="speakers"></div>
+    </article>
+  <!-- pop up -->
+    <div id="menu-overlay">
+      <ul class="mobile-menu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="about.html#partners">Partners</a></li>
+        <li><a href="https://www.google.com/search?q=egypt+rise+up+summit&oq=egypt+rise+up+summit&aqs=chrome..69i57j69i59l3j0i22i30j69i64j69i60j69i61.16534j0j7&sourceid=chrome&ie=UTF-8">News</a></li>
+        <li>
+          <a href="#" id="mobileMenuClose" onclick="closeMenu()"><i class="fa fa-times" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+    <footer class="hide-mobile">
+      <h3>Partners</h3>
+      <div class="break"></div>
+      <div class="partners" id="partners">
+        <img src="images/partners/google.png" alt="Missed Image">
+        <img src="images/partners/facebook.png" alt="Missed Image">
+        <img src="images/partners/amazon.png" alt="Missed Image">
+        <img src="images/partners/airbnb.png" alt="Missed Image">
+        <img src="images/partners/mozilla.png" alt="Missed Image">
       </div>
-    </nav>
-  </header>
-  <article class="home">
-    <div class="home-container">
-      <p class="home-welcome">"Hello! Sharing world"</p>
-      <h1 class="home-intro">Egypt RISEUP<br>GLOBAL SUMMIT<br>2022</h1>
-      <p class="home-desc">A joyful celebration believing in the value of openness and sharing, creating change with pepole form over 80 countries is taking place in october, in Egypt.</p>
-      <p class="home-time">2022.1.15(THU) ~ 16(FRI)</p>
-      <p class="home-lctn">@American University of Cairo, Conference Center </p>
-    </div>
-  </article>
-  <article class="program" id="program">
-    <h3>Main Program</h3>
-    <div class="break"></div>
-    <ul class="program-list">
-      <li>
-        <i class="fas fa-comments"></i>
-        <h4>Talks</h4>
-        <p>
-          Make conversations and make new friends, get a deep look of the job market for 2 days
-        </p>
-      </li>
-      <li>
-        <i class="fas fa-users"></i>
-        <h4>Workshops</h4>
-        <p>
-          Attend 50+ workshops, bootcamps, and keynotes covering all new dev technologies
-        </p>
-      </li>
-      <li>
-        <i class="fab fa-gitlab"></i>
-        <h4>Innovate</h4>
-        <p>
-          Get inspired by leaders and share with them your ideas, Sharpen your 
-        </p>
-      </li>
-      <li>
-        <i class="fas fa-ankh"></i>
-        <h4>Tour</h4>
-        <p>
-          Take a tour day at the Pyramids of Giza, Grand Egyptian Museum, Saladin Citadel
-        </p>
-      </li>
-      <li>
-        <i class="fas fa-award"></i>
-        <h4>Certificate</h4>
-        <p>
-          Seize your chance and prove your attendace of this event, a big deal content for your CV
-        </p>
-      </li>
-    </ul>
-    <button class="button-join">Join Riseup Summit 2022</button>
-  </article>
-  <article class="featured-speakers" id="speakers">
-    <h3>Featured Speakers</h3>
-    <div class="break"></div>
-    <div class="speakers"></div>
-  </article>
-<!-- pop up -->
-  <div id="menu-overlay">
-    <ul class="mobile-menu">
-      <li><a href="about.html">About</a></li>
-      <li><a href="#program">Program</a></li>
-      <li><a href="#speakers">Speakers</a></li>
-      <li><a href="about.html#partners">Partners</a></li>
-      <li><a href="https://www.google.com/search?q=egypt+rise+up+summit&oq=egypt+rise+up+summit&aqs=chrome..69i57j69i59l3j0i22i30j69i64j69i60j69i61.16534j0j7&sourceid=chrome&ie=UTF-8">News</a></li>
-      <li>
-        <a href="#" id="mobileMenuClose" onclick="closeMenu()"><i class="fa fa-times" aria-hidden="true"></i></a>
-      </li>
-    </ul>
-  </div>
-  <footer class="hide-mobile">
-    <h3>Partners</h3>
-    <div class="break"></div>
-    <div class="partners" id="partners">
-      <img src="images/partners/google.png" alt="Missed Image">
-      <img src="images/partners/facebook.png" alt="Missed Image">
-      <img src="images/partners/amazon.png" alt="Missed Image">
-      <img src="images/partners/airbnb.png" alt="Missed Image">
-      <img src="images/partners/mozilla.png" alt="Missed Image">
-    </div>
-    <div class="copy-write hide-mobile">
-      <img src="images/riseup.png" alt="Missed Image" class="copy-img">
-      <p class="copy-text">2021 Egypt Riseup Summit Some Rights reserved.</p>
-    </div>
-  </footer>
+      <div class="copy-write hide-mobile">
+        <img src="images/riseup.png" alt="Missed Image" class="copy-img">
+        <p class="copy-text">2021 Egypt Riseup Summit Some Rights reserved.</p>
+      </div>
+    </footer>
+  </main>
   <script src="scripts/main.js"></script>
   <script src="scripts/speakers.js"></script>
 </body>
